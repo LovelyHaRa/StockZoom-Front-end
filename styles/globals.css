@@ -1,0 +1,98 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* WEB FONTS */
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 300;
+    src: url('/fonts/Raleway/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: italic;
+    src: url('/fonts/Raleway/Raleway-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    src: url('/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: italic;
+    src: url('/fonts/Raleway/Raleway-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 500;
+    src: url('/fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 600;
+    src: url('/fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 700;
+    src: url('/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 800;
+    src: url('/fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 300;
+    src: url('/fonts/NanumBarunGothic/NanumBarunGothicLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 400;
+    src: url('/fonts/NanumBarunGothic/NanumGothic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 700;
+    src: url('/fonts/NanumBarunGothic/NanumGothic-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 800;
+    src: url('/fonts/NanumBarunGothic/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
