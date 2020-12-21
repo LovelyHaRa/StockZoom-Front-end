@@ -49,6 +49,7 @@ const topHeadlineTitle = css`
 const sectionFooter = css`
   display: flex;
   justify-content: flex-end;
+  padding: 0.5rem 0.25rem;
   font-family: 'Raleway';
 `;
 
