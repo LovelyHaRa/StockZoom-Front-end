@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Layout from '../../components/layout';
+import Responsive from '../../components/common/Responsive';
 import NewsCategory from '../../components/news/NewsCategory';
 import NewsList from '../../components/news/NewsList';
 import { categories } from '../../data/news';
@@ -8,10 +9,10 @@ import { categories } from '../../data/news';
 export default function Index({ data, active }) {
   return (
     <Layout>
-      <section>
+      <Responsive>
         <NewsCategory active={active} />
         <NewsList data={data} />
-      </section>
+      </Responsive>
     </Layout>
   );
 }
